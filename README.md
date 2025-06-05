@@ -2,6 +2,7 @@
 
 ### Laguage
 [![RU](https://img.shields.io/badge/lang-ru-red)](https://github.com/koonclsx/WAV-Transcriber-to-Metadata/blob/main/README.md)
+[![EN](https://img.shields.io/badge/lang-en-green)](https://github.com/koonclsx/WAV-Transcriber-to-Metadata/blob/main/README.en.md)
 
 Скрипт автоматически распознаёт речь в `.wav` файлах и встраивает текст транскрипции в **метаданные (поле комментариев)**.
 
