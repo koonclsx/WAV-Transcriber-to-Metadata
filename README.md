@@ -1,7 +1,7 @@
 # 🎙️ WAV Transcriber to Metadata
 
 ### Laguage
-[![RU](https://img.shields.io/badge/lang-ru-red)](https://github.com/koonclsx/WAV-Transcriber-to-Metadata/blob/main/README.ru.md)
+[![RU](https://img.shields.io/badge/lang-ru-red)](https://github.com/koonclsx/WAV-Transcriber-to-Metadata/blob/main/README.md)
 
 Скрипт автоматически распознаёт речь в `.wav` файлах и встраивает текст транскрипции в **метаданные (поле комментариев)**.
 
