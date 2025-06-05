@@ -1,7 +1,8 @@
 # 🎙️ WAV Transcriber to Metadata
 
-### Language  
-[![RU](https://img.shields.io/badge/lang-ru-red)](https://github.com/koonclsx/WAV-Transcriber-to-Metadata/blob/main/README.md)  
+### Language
+
+[![RU](https://img.shields.io/badge/lang-ru-red)](https://github.com/koonclsx/WAV-Transcriber-to-Metadata/blob/main/README.md)
 [![EN](https://img.shields.io/badge/lang-en-green)](https://github.com/koonclsx/WAV-Transcriber-to-Metadata/blob/main/README.en.md)
 
 This script automatically recognizes speech in `.wav` files and embeds the transcription into the **metadata (Comment field)** of the audio file.
