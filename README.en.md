@@ -111,16 +111,6 @@ result = model.transcribe(str(wav_path), language="en")
 
 ---
 
-## 📄 requirements.txt
-
-```txt
-openai-whisper
-ffmpeg-python
-tqdm
-```
-
----
-
 ## 📌 Notes
 
 - Whisper uses PyTorch — ensure your system is compatible  
