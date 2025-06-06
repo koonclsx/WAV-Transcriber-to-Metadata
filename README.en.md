@@ -15,7 +15,6 @@ This script automatically recognizes speech in `.wav` files and embeds the trans
 - ✅ Speech recognition using [Whisper](https://github.com/openai/whisper)
 - ✅ Transcription is stored in the **`Comment` (ICMT)** metadata field
 - ✅ **Visible in Windows Explorer** (if the “Comments” column is enabled)
-- ✅ Progress indicator
 - 🚫 Does **not** create `.txt` or `.srt` files — modifies WAV files directly
 
 ---
@@ -29,7 +28,34 @@ This script automatically recognizes speech in `.wav` files and embeds the trans
 pip install -r requirements.txt
 ```
 
-> ⚙️ If `ffmpeg` is not installed — the script will attempt to download and configure it automatically.
+3. Download the ffmpeg compilation.
+Go to the official website with ready-made builds.:
+https://www.gyan.dev/ffmpeg/builds/
+
+In the "Release builds" section, download ffmpeg-release-essentials.zip (approximately 60-70 MB)
+
+4. Unpack the archive
+Unpack the downloaded file .zip to a convenient folder, for example:
+C:\ffmpeg
+
+Inside there will be a folder ffmpeg-xxxx-win64-static — inside it there is a bin folder with a file ffmpeg.exe
+
+5. Add ffmpeg to the system PATH
+Open the Start menu, enter "Environment Variables" and select "Change Environment variables for this account" or "Change Environment Variables" (depends on the Windows version)
+
+In the window that opens, click the "Environment Variables" button
+
+In the "User environment variables" block (or system variables, if you want for everyone), find a variable named Path, highlight it and click "Edit"
+
+Click "Create" and enter the full path to the bin folder, for example:
+
+vbnet
+Copy
+Edit
+C:\ffmpeg\ffmpeg-xxxx-win64-static\bin
+(replace xxxx with a specific version in the folder name)
+
+Click OK in all windows to save
 
 ---
 
